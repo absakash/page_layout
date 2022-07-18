@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+    <style>
+        .container{
+            
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: 50px repeat(5, 90px);
+            row-gap: 20px;
+            column-gap: 20px;
+            
+            
+            
+            
+            
+        }
+        .grid{
+            background-color: lightskyblue;
+           
+            display: flex;
+            justify-content:center;
+            align-items: center;
+           
+        }
+        #other{
+            background-color: gray;
+        }
+        .day{
+            background-color: lightcoral;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+        }
+
+        .grid, .day{
+            font-size: 2em;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>WElcome to your own calender</h1>
+    <div class="container">
+
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">Wed</div>
+        <div class="day">Th</div>
+        <div class="day">Fr</div>
+        <div class="day">Sa</div>
+        
+        <div class="grid" id="other">30</div>
+        <div class="grid" id="other">31</div>
+        <div class="grid">1</div>
+        <div class="grid">2</div>
+        <div class="grid">3</div>
+        <div class="grid">4</div>
+        <div class="grid">5</div>
+        <div class="grid">6</div>
+        <div class="grid">7</div>
+        <div class="grid">8</div>
+        <div class="grid">9</div>
+        <div class="grid">10</div>
+        <div class="grid">11</div>
+        <div class="grid">12</div>
+        <div class="grid">13</div>
+        <div class="grid">14</div>
+        <div class="grid">15</div>
+        <div class="grid">16</div>
+        <div class="grid">17</div>
+        <div class="grid">18</div>
+        <div class="grid">19</div>
+        <div class="grid">20</div>
+        <div class="grid">21</div>
+        <div class="grid">22</div>
+        <div class="grid">23</div>
+        <div class="grid">24</div>
+        <div class="grid">25</div>
+        <div class="grid">26</div>
+        <div class="grid">27</div>
+        <div class="grid">28</div>
+        <div class="grid">29</div>
+        <div class="grid">30</div>
+        <div class="grid">31</div>
+        <div class="grid" id="other">1</div>
+        <div class="grid" id="other">2</div>
+        
+        
+    </div>
+</body>
+</html>
